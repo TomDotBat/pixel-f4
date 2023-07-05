@@ -173,6 +173,7 @@ function PANEL:Init()
             RunConsoleCommand("darkrp", self:GetCommand())
         end
 
+        self:Close()
         PIXEL.F4.ToggleMenu()
     end
 
